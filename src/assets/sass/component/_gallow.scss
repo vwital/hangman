@@ -1,0 +1,109 @@
+.gallow__bg {
+  max-width: 500px;
+  max-height: 500px;
+  @media (max-width: 845px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  @media (max-width: 630px) {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  @media (max-width: 550px) {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  transition: all 0.5s ease;
+}
+
+.gallow_full {
+  max-width: 500px;
+  max-height: 500px;
+  @media (max-width: 845px) {
+    max-width: 400px;
+    max-height: 400px;
+  }
+  transition: all 0.5s ease;
+}
+
+.gallow {
+  position: relative;
+  padding-right: 40px;
+}
+.man {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 25%;
+  left: 51%;
+  z-index: 2;
+  @media (max-width: 845px) {
+    max-width: 50%;
+    max-height: 50%;
+    left: 47%;
+  }
+  @media (max-width: 630px) {
+    max-width: 45%;
+    max-height: 45%;
+    left: 44%;
+  }
+  @media (max-width: 550px) {
+    left: 40%;
+    max-width: 40%;
+    max-height: 40%;
+  }
+  transition: all 0.5s ease;
+}
+
+.body__arms {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+}
+
+.left-arm {
+  right: 55%;
+}
+
+.right-arm {
+  left: 55%;
+}
+
+.body__legs {
+  position: absolute;
+  top: 100%;
+}
+
+.left-leg {
+  right: 55%;
+}
+
+.right-leg {
+  left: 55%;
+}
+
+.man > img {
+  max-width: 250px;
+  max-height: 200px;
+  @media (max-width: 845px) {
+    max-width: 65%;
+    max-height: 65%;
+  }
+  transition: all 0.5s ease;
+}
+.body__head {
+  transition: all 0.5s ease;
+  @media (max-width: 845px) {
+    max-width: 80%;
+    max-height: 80%;
+    left: 47%;
+  }
+}
+
+.body__body {
+  width: 5px;
+  overflow: hidden;
+}
+.hang-elements {
+}

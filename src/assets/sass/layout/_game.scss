@@ -1,0 +1,34 @@
+.game {
+  max-width: $desktop-width;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  @media (max-width: 845px) {
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 750px) {
+    font-size: 1.5rem;
+  }
+  @media (max-width: 630px) {
+    font-size: 1.35rem;
+  }
+  @media (max-width: 500px) {
+    font-size: 1.3rem;
+  }
+}
+
+.wrapper {
+  max-width: $desktop-wrapper;
+  margin: 20px;
+}
+
+.game-field {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  transition: all 0.5s;
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
+}
